@@ -6,4 +6,4 @@ server:
   port: 9898
 
 logging:
-  file: $HOME/elk-stack.log
+  file: elk-stack.log

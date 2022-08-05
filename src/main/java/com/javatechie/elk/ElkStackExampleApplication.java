@@ -42,7 +42,10 @@ public class ElkStackExampleApplication {
         return Stream.of(new User(1, "Instructor"),
 				new User(2, "Chandra"),
 				new User(3, "Deo"),
-				new User(4, "Arya")
+				new User(4, "Arya"),
+				new User(5, "Instructor"),
+				new User(6, "Saurabh"),
+				new User(7, "Dhingra")
 				)
 				.collect(Collectors.toList());
     }
