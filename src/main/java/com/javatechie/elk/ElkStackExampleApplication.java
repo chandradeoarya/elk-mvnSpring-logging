@@ -39,10 +39,11 @@ public class ElkStackExampleApplication {
 
 
     private List<User> getUsers() {
-        return Stream.of(new User(1, "John"),
-				new User(2, "Shyam"),
-				new User(3, "Rony"),
-				new User(4, "mak"))
+        return Stream.of(new User(1, "Instructor"),
+				new User(2, "Chandra"),
+				new User(3, "Deo"),
+				new User(4, "Arya")
+				)
 				.collect(Collectors.toList());
     }
 
